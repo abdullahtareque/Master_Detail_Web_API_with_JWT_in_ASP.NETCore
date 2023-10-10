@@ -1,0 +1,346 @@
+{
+	"info": {
+		"_postman_id": "b183f81d-7ebc-4671-a072-915d0f2270c5",
+		"name": "MM9_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28055818"
+	},
+	"item": [
+		{
+			"name": "http://localhost:45455/api/order/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6Ijg1MGY0ZmY1LWUyYTAtNGVjMC05YjhmLWJmMGRkYjA1NTc0YyIsInN1YiI6InBAbWFpbC5jb20iLCJlbWFpbCI6InBAbWFpbC5jb20iLCJqdGkiOiJmZTU3OWQyNi0yZTZkLTQ3Y2EtYWFjMC1hZGI2OWViNDY4MzkiLCJuYmYiOjE2OTAxMTU2MDUsImV4cCI6MTY5MDEzNzIwNSwiaWF0IjoxNjkwMTE1NjA1fQ.Z67gv5noT3P0ViD7SZio0se-sMa1z5r_wUI6gRsi2ZGvM2fttRcALowhRz2Vo1nMQQDcHxeOpjRPhiMoDt3D5w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "XXX",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Users/IsDB/Pictures/Screenshots/Screenshot (34).png"
+						},
+						{
+							"key": "orderDate",
+							"value": "2023-07-23",
+							"type": "text"
+						},
+						{
+							"key": "isComplete",
+							"value": "True",
+							"type": "text"
+						},
+						{
+							"key": "orderDetail",
+							"value": "[\n               { \"detailId\": 4,\n                \"productId\": 3,\n                \"quantity\": 30,\n                \"price\": 300.00\n               },\n \t       { \"detailId\": 4,\n                \"productId\": 3,\n                \"quantity\": 30,\n                \"price\": 300.00\n               }\n             ]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/order/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"order",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/order/4",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6Ijg1MGY0ZmY1LWUyYTAtNGVjMC05YjhmLWJmMGRkYjA1NTc0YyIsInN1YiI6InBAbWFpbC5jb20iLCJlbWFpbCI6InBAbWFpbC5jb20iLCJqdGkiOiJmZTU3OWQyNi0yZTZkLTQ3Y2EtYWFjMC1hZGI2OWViNDY4MzkiLCJuYmYiOjE2OTAxMTU2MDUsImV4cCI6MTY5MDEzNzIwNSwiaWF0IjoxNjkwMTE1NjA1fQ.Z67gv5noT3P0ViD7SZio0se-sMa1z5r_wUI6gRsi2ZGvM2fttRcALowhRz2Vo1nMQQDcHxeOpjRPhiMoDt3D5w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "XXX",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Users/IsDB/Pictures/Screenshots/Screenshot (34).png"
+						},
+						{
+							"key": "orderDate",
+							"value": "2023-07-23",
+							"type": "text"
+						},
+						{
+							"key": "isComplete",
+							"value": "True",
+							"type": "text"
+						},
+						{
+							"key": "orderDetail",
+							"value": "[\n               { \"detailId\": 4,\n                \"productId\": 3,\n                \"quantity\": 30,\n                \"price\": 300.00\n               },\n \t       { \"detailId\": 4,\n                \"productId\": 3,\n                \"quantity\": 30,\n                \"price\": 300.00\n               }\n             ]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/order/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"order",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/order/3",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6Ijg1MGY0ZmY1LWUyYTAtNGVjMC05YjhmLWJmMGRkYjA1NTc0YyIsInN1YiI6InBAbWFpbC5jb20iLCJlbWFpbCI6InBAbWFpbC5jb20iLCJqdGkiOiJmZTU3OWQyNi0yZTZkLTQ3Y2EtYWFjMC1hZGI2OWViNDY4MzkiLCJuYmYiOjE2OTAxMTU2MDUsImV4cCI6MTY5MDEzNzIwNSwiaWF0IjoxNjkwMTE1NjA1fQ.Z67gv5noT3P0ViD7SZio0se-sMa1z5r_wUI6gRsi2ZGvM2fttRcALowhRz2Vo1nMQQDcHxeOpjRPhiMoDt3D5w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "XXX",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Users/IsDB/Pictures/Screenshots/Screenshot (34).png"
+						},
+						{
+							"key": "orderDate",
+							"value": "2023-07-23",
+							"type": "text"
+						},
+						{
+							"key": "isComplete",
+							"value": "True",
+							"type": "text"
+						},
+						{
+							"key": "orderDetail",
+							"value": "[\n               { \"detailId\": 3,\n                \"productId\": 1,\n                \"quantity\": 10,\n                \"price\": 100.00\n               },\n \t       { \"detailId\": 4,\n                \"productId\": 1,\n                \"quantity\": 10,\n                \"price\": 100.00\n               }\n             ]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/order/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"order",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6Ijg1MGY0ZmY1LWUyYTAtNGVjMC05YjhmLWJmMGRkYjA1NTc0YyIsInN1YiI6InBAbWFpbC5jb20iLCJlbWFpbCI6InBAbWFpbC5jb20iLCJqdGkiOiJmZTU3OWQyNi0yZTZkLTQ3Y2EtYWFjMC1hZGI2OWViNDY4MzkiLCJuYmYiOjE2OTAxMTU2MDUsImV4cCI6MTY5MDEzNzIwNSwiaWF0IjoxNjkwMTE1NjA1fQ.Z67gv5noT3P0ViD7SZio0se-sMa1z5r_wUI6gRsi2ZGvM2fttRcALowhRz2Vo1nMQQDcHxeOpjRPhiMoDt3D5w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerName",
+							"value": "Nino",
+							"type": "text"
+						},
+						{
+							"key": "imageFile",
+							"type": "file",
+							"src": "/C:/Users/IsDB/Pictures/Screenshots/Screenshot (33).png"
+						},
+						{
+							"key": "orderDate",
+							"value": "2023-07-23",
+							"type": "text"
+						},
+						{
+							"key": "isComplete",
+							"value": "True",
+							"type": "text"
+						},
+						{
+							"key": "orderDetail",
+							"value": "[\n               {\n                \"productId\": 1,\n                \"quantity\": 10,\n                \"price\": 100.00\n               },\n \t       {\n                \"productId\": 2,\n                \"quantity\": 20,\n                \"price\": 200.00\n               }\n             ]",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJJZCI6Ijg1MGY0ZmY1LWUyYTAtNGVjMC05YjhmLWJmMGRkYjA1NTc0YyIsInN1YiI6InBAbWFpbC5jb20iLCJlbWFpbCI6InBAbWFpbC5jb20iLCJqdGkiOiJmZTU3OWQyNi0yZTZkLTQ3Y2EtYWFjMC1hZGI2OWViNDY4MzkiLCJuYmYiOjE2OTAxMTU2MDUsImV4cCI6MTY5MDEzNzIwNSwiaWF0IjoxNjkwMTE1NjA1fQ.Z67gv5noT3P0ViD7SZio0se-sMa1z5r_wUI6gRsi2ZGvM2fttRcALowhRz2Vo1nMQQDcHxeOpjRPhiMoDt3D5w",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:45455/api/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/authManagement/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"p@mail.com\",\r\n  \"password\": \"Pn@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/authManagement/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"authManagement",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:45455/api/authManagement/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Pain\",\r\n  \"email\": \"p@mail.com\",\r\n  \"password\": \"Pn@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:45455/api/authManagement/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "45455",
+					"path": [
+						"api",
+						"authManagement",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
