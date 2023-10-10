@@ -1,0 +1,1 @@
+# Master-Detail-Web-API-with-JWT-in-ASP.NET-Core-master
